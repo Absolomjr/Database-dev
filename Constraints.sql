@@ -87,6 +87,14 @@ desc empy;
 
 insert into empy(eid,age,gender,Lname,Dname,Salary,phoneno,email,DOJ) values('E001',24,'M','Masiko','Godfrey',50000,125376538,'siko@gmail.com','2025-08-04'); 
 
+insert into empy values (
+    'E002', 20, 'F', 'Precious','OSCAR', '1000000','0771301999','oscar@gmail.com', '2025-02-24'
+);
+
+insert into empy values (
+    'E003', '23', 'M', 'odongkara','OSCAR', '20000','0771301998','oscar@gmail.com', '2025-02-24'
+);
+
 select * from empy;  
 
 -- Fails to run because it has inappropriate values
